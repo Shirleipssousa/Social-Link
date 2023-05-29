@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+font-size: 14px;
+    height: 100vh;
+}
+body{ background: url("./img/background.jpg ");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+font-family: sora;
+}
+.container{
+    max-width: 540px;
+    margin: auto;
+display: flex;
+flex-direction: column;
+padding: 20px;
+color: white;
+height: 100%;
+justify-content: center;}
+.gradient
+{ background: linear-gradient(to right, blue, #5579ba, #41a377); 
+}
+.profile-picture{
+    width: 120px;
+    border-radius: 50%;   
+}
+header{
+    font-size: 10px;
+}
+.username{
+    font-weight: 400;
+    margin: 16px 0;
+    font-size: 2em;
+}
+.description{
+ color:#919293;
+    font-size: 1rem;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 2em 0;
+    gap: 1.5em;
+}
+.list-item{
+    font-size: 1.2em;
+    height: 4em;
+    border-radius: 2em;
+    display: flex;
+}
+.link{
+    flex-grow: 1;
+    padding: 0 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.link>img{
+    width: 1.2em;
+}
+footer{
+    display: flex;
+    gap:1.5em
+}
+.contact{
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.contact>img{
+    width: 1.8em;
+}
+@media screen and (min-width:815px) {
+    htm{
+        font-size: 16px;
+    }
+ }
